@@ -1,0 +1,457 @@
+/* GLOBAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* LINK BACK TO PORTFOLIO */
+#portfolio {
+    width: 100%;
+}
+
+#portfolio-logo {
+    width: 35%;
+}
+
+#tilbage {
+    visibility: hidden;
+    font-family: 'Audiowide', cursive;
+}
+
+#portfolio-logo:hover ~ #tilbage {
+    visibility: visible;
+}
+
+/* LANDING PAGE */
+#landing-page {
+    background-image: url(../images/landing-page.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#landing-logo {
+    width: 20%;
+    margin: 40%;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+#slogan {
+    font-family: 'Lobster', cursive;
+    font-size: 600%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#continue {
+    background-color: rgba(25, 98, 201, 0.4);
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 40%;
+    padding: 2%;
+    display: inline-block;
+}
+
+#continue:hover {
+    background-color: rgb(25, 98, 201);
+}
+
+/* HEADER */
+header {
+    border: none;
+    background-color: rgb(51, 51, 51);
+    width: 15%;
+    min-height: 70em;
+    position: fixed;
+}
+
+#logo {
+    width: 90%;
+    margin: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+#side-nav {
+    width: 100%;
+}
+
+#side-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#side-nav ul li {
+    list-style-type: none;
+}
+
+#side-nav li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Audiowide', cursive;
+    font-size: 160%;
+}
+
+#side-nav li a:hover {
+    background-color: rgba(25, 98, 201, 0.3);
+}
+
+.current-link {
+    background-color: rgb(25, 98, 201);
+}
+
+/* FRONT PAGE */
+
+.primary-articlebox {
+    position: relative;
+    width: 85%;
+    float: right;
+}
+
+#article1 {
+    width: 100%;
+}
+
+#primary { 
+    position: absolute;
+    width: 100%;
+    top: 75%;
+}
+
+#primary span { 
+    color: white; 
+    font-family: 'Baumans', cursive;
+    font-size: 250%;
+    background: rgba(25, 98, 201, 0.7);
+    padding: 2%; 
+}
+
+.article {
+    width: 100%;
+}
+
+.secondary-articlebox {
+    position: relative;
+    width: 28.33%;
+    float: right;
+}
+
+
+.secondary { 
+    position: absolute;
+    width: 100%;
+    top: 85%;
+}
+
+.secondary span { 
+    color: white; 
+    font-family: 'Baumans', cursive;
+    font-size: 110%;
+    background: rgba(25, 98, 201, 0.7);
+    padding: 4%;
+}
+
+.box-filler {
+    width: 28.34%;
+}
+
+#frontpage-bg {
+    background-color: rgb(51, 51, 51)
+}
+
+/* ARTICLE HEADINGS */
+
+.heading-box {
+    position: relative;
+    width: 85%;
+    float: right;
+}
+
+.heading-pic {
+    width: 100%;
+}
+
+.heading { 
+    position: absolute;
+    width: 100%;
+    top: 75%;
+}
+
+.heading span { 
+    color: white; 
+    font-family: 'Baumans', cursive;
+    font-size: 200%;
+    background: rgba(25, 98, 201, 0.7);
+    padding: 2%; 
+}
+
+/* ARTICLE CONTENT */
+
+.article-content {
+    width: 85%;
+    float: right;
+    padding: 15%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 150%;
+}
+
+.author {
+    font-family: 'Baumans', cursive;
+    font-size: 110%;
+    padding-top: 10%;
+    float: right;
+}
+
+.content-pic {
+    width: 80%;
+    border: solid; 
+    margin: 5%;
+    
+}
+
+/* MOBILE-SIZE */
+@media (max-width: 767px) {
+   
+    /* LINK BACK TO PORTFOLIO */
+    #portfolio {
+        width: 100%;
+    }
+
+    #portfolio-logo {
+        width: 30%;
+    }
+
+    #tilbage {
+        visibility: visible;
+        font-family: 'Audiowide', cursive;
+        font-size: 1em;
+    }
+    
+    /* LANDING PAGE */
+    
+    #landing-page {
+        background: none;
+        background-color: rgb(51, 51, 51);
+    }
+    
+    #landing-logo {
+        width: 50%;
+        margin: 25%;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+    
+    #slogan {
+        font-size: 300%;
+    }
+    
+    #continue {
+        font-size: 150%;
+        width: 50%;
+        margin-left: 25%;
+        margin-right 25%;
+        margin-bottom: 10%;
+        padding: 5%;
+    }
+    
+    /* HEADER */
+    
+    header {
+        width: 100%;
+        position: absolute;
+        min-height: 0;
+    }
+    
+    #logo {
+        width: 40%;
+        margin: 30%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #side-nav li a {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        font-size: 150%;
+    }
+    
+    /* FRONT PAGE */
+    
+    .content-box {
+        padding-top: 238%
+    }
+    
+    .primary-articlebox {
+        width: 100%;
+        float: none;
+    }
+
+    #primary { 
+        top: 75%;
+    }
+
+    #primary span { 
+        font-size: 80%;
+    }
+
+    .secondary-articlebox {
+        width: 33.33%;
+    }
+
+
+    .secondary { 
+        width: 100%;
+        top: 70%;
+    }
+
+    .secondary span {
+        font-size: 25%;
+        padding: 3%;
+    }
+
+    .box-filler {
+        width: 33.34%;
+    }
+    
+    /* ARTICLE HEADINGS */
+    
+    .heading-box {
+        width: 100%;
+        float: none;
+    }
+
+    .heading { 
+        top: 75%;
+    }
+
+    .heading span { 
+        font-size: 80%;
+    }
+    
+    /* ARTICLE CONTENT */
+
+    .article-content {
+        width: 100%;
+        padding: 10%;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 80%;
+    }
+
+    .author {
+        font-family: 'Baumans', cursive;
+        font-size: 80%;
+    }
+}
+
+/* TABLET-SIZE */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* LINK BACK TO PORTFOLIO */
+    #portfolio {
+        width: 100%;
+    }
+
+    #portfolio-logo {
+        width: 70%;
+    }
+
+    #tilbage {
+        visibility: visible;
+        font-family: 'Audiowide', cursive;
+        font-size: 0.7em;
+    }
+    
+    /* LANDING PAGE */
+    
+    #landing-logo {
+        width: 40%;
+        margin: 30%;
+        margin-top: 10%;
+        margin-bottom: 1%;
+    }
+    
+    #slogan {
+        font-size: 400%;
+    }
+    
+    #continue {
+        font-size: 200%;
+        width: 30%;
+        margin-left: 35%;
+        padding: 5%;
+    }
+    
+    /* HEADER */
+    
+    header {
+        width: 20%;
+    }
+    
+    #side-nav li a {
+        padding-top: 25%;
+        padding-bottom: 25%;
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    
+    /* FRONT PAGE */
+    
+    .primary-articlebox {
+        width: 80%;
+    }
+
+    #primary span { 
+        font-size: 180%; 
+    }
+    
+    .secondary-articlebox {
+        width: 26.66%;
+    }
+
+
+    .secondary { 
+        top: 83%;
+    }
+
+    .secondary span { 
+        font-size: 80%;
+        padding: 3%;
+    }
+
+    .box-filler {
+        width: 26.68%;
+    }
+    
+    /* ARTICLE HEADINGS */
+    
+    .heading-box {
+    width: 80%;
+    }
+
+    .heading span { 
+        font-size: 140%;
+    }
+    
+    /* ARTICLE CONTENT */
+
+    .article-content {
+        width: 80%;
+        padding: 10%;
+        font-size: 120%;
+    }
+
+    .author {
+        font-size: 100%;
+    }
+}
